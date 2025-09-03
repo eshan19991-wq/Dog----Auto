@@ -37,7 +37,7 @@ jobs:
         mv app/build/outputs/apk/release/app-release-unsigned.apk app/build/outputs/apk/release/app-release.apk
 
     - name: Upload APKs
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: DogAuto-APK
         path: |
