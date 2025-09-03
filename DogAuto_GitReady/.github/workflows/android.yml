@@ -2,9 +2,7 @@ name: Build DogAuto APK
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
@@ -45,3 +43,4 @@ jobs:
         path: |
           app/build/outputs/apk/debug/app-debug.apk
           app/build/outputs/apk/release/app-release.apk
+
